@@ -41,3 +41,4 @@ C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\obj\x86\Debug\WindowsTesting.
 C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\obj\x86\Debug\WindowsTesting.SolveEventForm.resources
 C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\obj\x86\Debug\WindowsTesting.csproj.GenerateResource.Cache
 C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\obj\x86\Debug\WindowsTesting.GraphForm.resources
+C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\obj\x86\Debug\WindowsTesting.csprojResolveAssemblyReference.cache

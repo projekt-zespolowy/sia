@@ -35,10 +35,11 @@
             // 
             this.GraphBox.Location = new System.Drawing.Point(12, 12);
             this.GraphBox.Name = "GraphBox";
+            this.GraphBox.Padding = new System.Windows.Forms.Padding(0);
             this.GraphBox.Size = new System.Drawing.Size(260, 109);
             this.GraphBox.TabIndex = 0;
             this.GraphBox.TabStop = false;
-            this.GraphBox.Text = "GraphBox";
+            this.GraphBox.Text = "Kurs";
             this.GraphBox.Enter += new System.EventHandler(this.GraphBox_Enter);
             // 
             // GraphForm
