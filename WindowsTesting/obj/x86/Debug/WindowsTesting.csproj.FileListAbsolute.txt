@@ -32,7 +32,6 @@ C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\bin\Debug\System.Data.SQLite.
 C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\bin\Debug\Hub.pdb
 C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\bin\Debug\SQLDatabaseGate.pdb
 C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\bin\Debug\System.Data.SQLite.xml
-C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\obj\x86\Debug\WindowsTesting.csprojResolveAssemblyReference.cache
 C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\obj\x86\Debug\WindowsTesting.ChangeUserMoney.resources
 C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\obj\x86\Debug\WindowsTesting.TradeForm.resources
 C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\obj\x86\Debug\WindowsTesting.ModifyRisk.resources
@@ -41,3 +40,4 @@ C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\obj\x86\Debug\WindowsTesting.
 C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\obj\x86\Debug\WindowsTesting.Properties.Resources.resources
 C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\obj\x86\Debug\WindowsTesting.SolveEventForm.resources
 C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\obj\x86\Debug\WindowsTesting.csproj.GenerateResource.Cache
+C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\obj\x86\Debug\WindowsTesting.GraphForm.resources

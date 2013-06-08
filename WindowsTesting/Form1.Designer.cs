@@ -73,23 +73,24 @@
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.label9 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button2 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.użytkownicyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.wydarzeniaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.inneToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.koniecToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.dodajNowegoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.zmieńStanKontaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usuńToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.wydarzeniaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dodajToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.zmieńRyzykoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rozwiążToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.inneToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.czyśćBazęToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.wypełnijDanymiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.koniecToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.wykresKursuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tradeGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.statusStrip1.SuspendLayout();
@@ -98,8 +99,8 @@
             // 
             // tradeGroupBox
             // 
-            this.tradeGroupBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.tradeGroupBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tradeGroupBox.Controls.Add(this.label8);
             this.tradeGroupBox.Controls.Add(this.button1);
             this.tradeGroupBox.Controls.Add(this.label7);
@@ -232,9 +233,9 @@
             // listView1
             // 
             this.listView1.Activation = System.Windows.Forms.ItemActivation.OneClick;
-            this.listView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.listView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2,
@@ -307,6 +308,12 @@
             this.toolStripStatusLabel1.Size = new System.Drawing.Size(118, 17);
             this.toolStripStatusLabel1.Text = "toolStripStatusLabel1";
             // 
+            // toolStripStatusLabel2
+            // 
+            this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(118, 17);
+            this.toolStripStatusLabel2.Text = "toolStripStatusLabel2";
+            // 
             // label9
             // 
             this.label9.AutoSize = true;
@@ -318,8 +325,8 @@
             // 
             // comboBox1
             // 
-            this.comboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.comboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(49, 29);
             this.comboBox1.Name = "comboBox1";
@@ -360,39 +367,6 @@
             this.użytkownicyToolStripMenuItem.Size = new System.Drawing.Size(86, 20);
             this.użytkownicyToolStripMenuItem.Text = "Użytkownicy";
             // 
-            // wydarzeniaToolStripMenuItem
-            // 
-            this.wydarzeniaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.dodajToolStripMenuItem,
-            this.zmieńRyzykoToolStripMenuItem,
-            this.rozwiążToolStripMenuItem});
-            this.wydarzeniaToolStripMenuItem.Name = "wydarzeniaToolStripMenuItem";
-            this.wydarzeniaToolStripMenuItem.Size = new System.Drawing.Size(80, 20);
-            this.wydarzeniaToolStripMenuItem.Text = "Wydarzenia";
-            // 
-            // inneToolStripMenuItem
-            // 
-            this.inneToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.czyśćBazęToolStripMenuItem,
-            this.wypełnijDanymiToolStripMenuItem,
-            this.koniecToolStripMenuItem});
-            this.inneToolStripMenuItem.Name = "inneToolStripMenuItem";
-            this.inneToolStripMenuItem.Size = new System.Drawing.Size(42, 20);
-            this.inneToolStripMenuItem.Text = "Inne";
-            // 
-            // koniecToolStripMenuItem
-            // 
-            this.koniecToolStripMenuItem.Name = "koniecToolStripMenuItem";
-            this.koniecToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
-            this.koniecToolStripMenuItem.Text = "Koniec";
-            this.koniecToolStripMenuItem.Click += new System.EventHandler(this.koniecToolStripMenuItem_Click);
-            // 
-            // toolStripStatusLabel2
-            // 
-            this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            this.toolStripStatusLabel2.Size = new System.Drawing.Size(118, 17);
-            this.toolStripStatusLabel2.Text = "toolStripStatusLabel2";
-            // 
             // dodajNowegoToolStripMenuItem
             // 
             this.dodajNowegoToolStripMenuItem.Image = global::WindowsTesting.Properties.Resources.NewReport;
@@ -418,6 +392,17 @@
             this.usuńToolStripMenuItem.Name = "usuńToolStripMenuItem";
             this.usuńToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.usuńToolStripMenuItem.Text = "Usuń";
+            // 
+            // wydarzeniaToolStripMenuItem
+            // 
+            this.wydarzeniaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.dodajToolStripMenuItem,
+            this.zmieńRyzykoToolStripMenuItem,
+            this.rozwiążToolStripMenuItem,
+            this.wykresKursuToolStripMenuItem});
+            this.wydarzeniaToolStripMenuItem.Name = "wydarzeniaToolStripMenuItem";
+            this.wydarzeniaToolStripMenuItem.Size = new System.Drawing.Size(80, 20);
+            this.wydarzeniaToolStripMenuItem.Text = "Wydarzenia";
             // 
             // dodajToolStripMenuItem
             // 
@@ -447,6 +432,16 @@
             this.rozwiążToolStripMenuItem.Text = "Rozwiąż";
             this.rozwiążToolStripMenuItem.Click += new System.EventHandler(this.rozwiążToolStripMenuItem_Click);
             // 
+            // inneToolStripMenuItem
+            // 
+            this.inneToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.czyśćBazęToolStripMenuItem,
+            this.wypełnijDanymiToolStripMenuItem,
+            this.koniecToolStripMenuItem});
+            this.inneToolStripMenuItem.Name = "inneToolStripMenuItem";
+            this.inneToolStripMenuItem.Size = new System.Drawing.Size(42, 20);
+            this.inneToolStripMenuItem.Text = "Inne";
+            // 
             // czyśćBazęToolStripMenuItem
             // 
             this.czyśćBazęToolStripMenuItem.Image = global::WindowsTesting.Properties.Resources.NewWebsite;
@@ -464,6 +459,20 @@
             this.wypełnijDanymiToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
             this.wypełnijDanymiToolStripMenuItem.Text = "Wypełnij danymi";
             this.wypełnijDanymiToolStripMenuItem.Click += new System.EventHandler(this.wypełnijDanymiToolStripMenuItem_Click);
+            // 
+            // koniecToolStripMenuItem
+            // 
+            this.koniecToolStripMenuItem.Name = "koniecToolStripMenuItem";
+            this.koniecToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
+            this.koniecToolStripMenuItem.Text = "Koniec";
+            this.koniecToolStripMenuItem.Click += new System.EventHandler(this.koniecToolStripMenuItem_Click);
+            // 
+            // wykresKursuToolStripMenuItem
+            // 
+            this.wykresKursuToolStripMenuItem.Name = "wykresKursuToolStripMenuItem";
+            this.wykresKursuToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.wykresKursuToolStripMenuItem.Text = "Wykres kursu";
+            this.wykresKursuToolStripMenuItem.Click += new System.EventHandler(this.wykresKursuToolStripMenuItem_Click);
             // 
             // TradeForm
             // 
@@ -532,6 +541,7 @@
         private System.Windows.Forms.ToolStripMenuItem wypełnijDanymiToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem koniecToolStripMenuItem;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
+        private System.Windows.Forms.ToolStripMenuItem wykresKursuToolStripMenuItem;
     }
 }
 

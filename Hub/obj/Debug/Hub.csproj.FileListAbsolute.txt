@@ -7,3 +7,12 @@ C:\Users\Wojtek\Studia\Bazy Danych\SQL\Test01\Hub\bin\Debug\System.Data.SQLite.x
 C:\Users\Wojtek\Studia\Bazy Danych\SQL\Test01\Hub\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Wojtek\Studia\Bazy Danych\SQL\Test01\Hub\obj\Debug\Hub.dll
 C:\Users\Wojtek\Studia\Bazy Danych\SQL\Test01\Hub\obj\Debug\Hub.pdb
+C:\Users\Netsu\Documents\GitHub\sia\Hub\bin\Debug\Hub.dll
+C:\Users\Netsu\Documents\GitHub\sia\Hub\bin\Debug\Hub.pdb
+C:\Users\Netsu\Documents\GitHub\sia\Hub\bin\Debug\SQLDatabaseGate.dll
+C:\Users\Netsu\Documents\GitHub\sia\Hub\bin\Debug\System.Data.SQLite.dll
+C:\Users\Netsu\Documents\GitHub\sia\Hub\bin\Debug\SQLDatabaseGate.pdb
+C:\Users\Netsu\Documents\GitHub\sia\Hub\bin\Debug\System.Data.SQLite.xml
+C:\Users\Netsu\Documents\GitHub\sia\Hub\obj\Debug\Hub.csprojResolveAssemblyReference.cache
+C:\Users\Netsu\Documents\GitHub\sia\Hub\obj\Debug\Hub.dll
+C:\Users\Netsu\Documents\GitHub\sia\Hub\obj\Debug\Hub.pdb

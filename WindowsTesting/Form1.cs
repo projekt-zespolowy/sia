@@ -374,5 +374,11 @@ namespace WindowsTesting
 
             
         }
+
+        private void wykresKursuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            GraphForm graph = new GraphForm();
+            graph.Show();
+        }
     }
 }
