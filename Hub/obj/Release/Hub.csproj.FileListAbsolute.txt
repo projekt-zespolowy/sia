@@ -1,0 +1,9 @@
+C:\Users\Wojtek\Studia\Bazy Danych\SQL\Test01\Hub\bin\Release\Hub.dll
+C:\Users\Wojtek\Studia\Bazy Danych\SQL\Test01\Hub\bin\Release\Hub.pdb
+C:\Users\Wojtek\Studia\Bazy Danych\SQL\Test01\Hub\bin\Release\SQLDatabaseGate.dll
+C:\Users\Wojtek\Studia\Bazy Danych\SQL\Test01\Hub\bin\Release\System.Data.SQLite.dll
+C:\Users\Wojtek\Studia\Bazy Danych\SQL\Test01\Hub\bin\Release\SQLDatabaseGate.pdb
+C:\Users\Wojtek\Studia\Bazy Danych\SQL\Test01\Hub\bin\Release\System.Data.SQLite.xml
+C:\Users\Wojtek\Studia\Bazy Danych\SQL\Test01\Hub\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Wojtek\Studia\Bazy Danych\SQL\Test01\Hub\obj\Release\Hub.dll
+C:\Users\Wojtek\Studia\Bazy Danych\SQL\Test01\Hub\obj\Release\Hub.pdb

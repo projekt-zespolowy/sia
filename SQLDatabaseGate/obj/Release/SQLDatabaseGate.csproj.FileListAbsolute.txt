@@ -1,0 +1,9 @@
+C:\Users\Wojtek\Studia\Bazy Danych\SQL\Test01\SQLDatabaseGate\bin\Release\SQLDatabaseGate.dll
+C:\Users\Wojtek\Studia\Bazy Danych\SQL\Test01\SQLDatabaseGate\bin\Release\SQLDatabaseGate.pdb
+C:\Users\Wojtek\Studia\Bazy Danych\SQL\Test01\SQLDatabaseGate\bin\Release\SQLite.NET.dll
+C:\Users\Wojtek\Studia\Bazy Danych\SQL\Test01\SQLDatabaseGate\bin\Release\System.Data.SQLite.dll
+C:\Users\Wojtek\Studia\Bazy Danych\SQL\Test01\SQLDatabaseGate\bin\Release\System.Data.SQLite.Linq.dll
+C:\Users\Wojtek\Studia\Bazy Danych\SQL\Test01\SQLDatabaseGate\bin\Release\System.Data.SQLite.xml
+C:\Users\Wojtek\Studia\Bazy Danych\SQL\Test01\SQLDatabaseGate\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Wojtek\Studia\Bazy Danych\SQL\Test01\SQLDatabaseGate\obj\Release\SQLDatabaseGate.dll
+C:\Users\Wojtek\Studia\Bazy Danych\SQL\Test01\SQLDatabaseGate\obj\Release\SQLDatabaseGate.pdb

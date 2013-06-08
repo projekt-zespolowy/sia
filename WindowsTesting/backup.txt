@@ -1,0 +1,190 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using Hubx;
+
+namespace WindowsTesting
+{
+    public partial class TradeForm : Form
+    {
+        private Hub h;
+        private bool nosel;
+        public TradeForm()
+        {
+         
+            InitializeComponent();
+            h = new Hub();
+            nosel = false;
+            
+            h.MakeUser("Kozak");
+            h.SetMoney(1, 100000);
+
+            h.MakeUser("Wojtek");
+            h.SetMoney(2, 100000);
+
+            h.MakeEvent(30000, "Final", new string[] { "bayern", "remis", "barca" });
+            h.MakeEvent(30000, "Konklawe", new string[] { "bergoglio", "raztinger"});
+
+            h.Trade(1, 1, 1, 10000, true);
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listView1_ItemActivate(object sender, EventArgs e)
+        {
+           // Text = listView1.S
+        }
+        private void HandleEvent(bool revise)
+        {
+            int sel = -1;
+            try
+            {
+                sel = listView1.SelectedIndices[0];
+            }
+            catch { }
+
+            if(revise)
+            ReviseInfo();
+
+            int eid = 1;
+            int cid = 0;
+            try
+            {
+                label8.Text = listView1.SelectedItems[0].Group.Header + " " + listView1.SelectedItems[0].SubItems[1].Text;
+
+                eid = (int)listView1.SelectedItems[0].Group.Tag;
+                cid = (int)listView1.SelectedItems[0].Tag;
+            }
+            catch {
+                return;
+            }
+
+            
+
+            int staw = (int)(numericUpDown1.Value * 100.0m);
+
+            int koszt = h.Trade((((UserInfo)comboBox1.SelectedItem).uid), eid, cid, staw, false);
+
+            label3.Text = (((double)koszt) / 100.0).ToString("0.00");
+
+            label5.Text = (h.GetUserInfo(((UserInfo)comboBox1.SelectedItem).uid).money/100.0).ToString("0.00");
+            label7.Text = (h.PersonalStake(((UserInfo)comboBox1.SelectedItem).uid, eid, cid) / 100.0).ToString("0.00");
+
+            toolStripStatusLabel1.Text = "(Kurs: " + (((double)staw) / (double)koszt).ToString("0.000") + ")";
+        }
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            /*if (nosel)
+                return;)*/
+            HandleEvent(false);
+        }
+        private void ReviseInfo()
+        {
+            int old_eid = -1;
+            int old_cid = -1;
+
+            try
+            {
+                old_eid = (int)listView1.SelectedItems[0].Group.Tag;
+                old_cid = (int)listView1.SelectedItems[0].Tag;
+            }
+            catch { }
+
+            listView1.Items.Clear();
+            listView1.Groups.Clear();
+
+            int[] nums = h.EventNums();
+
+            foreach (int eid in nums)
+            {
+                EventInfo ei = h.GetEventInfo(eid);
+
+                ListViewGroup lvg = new ListViewGroup();
+                lvg.Header = ei.name;
+                lvg.Tag = eid;
+
+                listView1.Groups.Add(lvg);
+                for (int i = 0; i < ei.N; i++)
+                {
+                    ListViewItem lvi = new ListViewItem();
+
+                    string[] text = new string[3];
+                    text[0] = ei.wyns[i];
+                    text[1] = ei.kursy[i].ToString("0.0000");
+                    text[2] = "";
+                    if (h.PersonalStake(1, eid, i) != 0)
+                    {
+                        text[2] = ((double)h.PersonalStake(((UserInfo)comboBox1.SelectedItem).uid, eid, i) / 100.0).ToString(".00");
+                        lvi.BackColor = Color.FromArgb(255, 255, 128);
+                    }
+                    lvi.SubItems.AddRange(text);
+                    lvi.Tag = i;
+
+                    lvg.Items.Add(lvi);
+                    listView1.Items.Add(lvi);
+
+                    if (eid == old_eid && i == old_cid)
+                    {
+                        lvi.Selected = true;
+                    }
+                }
+
+            }
+
+            // userzy
+            int old_uid = -1;
+            try
+            {
+                old_uid = ((UserInfo)comboBox1.SelectedItem).uid;
+            }
+            catch { }
+
+            comboBox1.Items.Clear();
+
+            int[] unums = h.UserNums();
+
+            foreach (int uid in unums)
+            {
+                if (uid == 0)
+                    continue;
+
+                UserInfo ui = h.GetUserInfo(uid);
+                comboBox1.Items.Add(ui);
+
+                if (uid == old_uid)
+                    comboBox1.SelectedItem = ui;
+            }
+
+            
+
+
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            HandleEvent(true);
+        }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+            HandleEvent(false);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ReviseInfo();
+        }
+    }
+}

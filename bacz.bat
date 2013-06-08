@@ -1,0 +1,1 @@
+C:\Program Files\Notepad++\notepad++.exe C:\Program Files\Haskell Platform\2012.4.0.0\bin\hello.hs
