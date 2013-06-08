@@ -6,24 +6,43 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using Hubx;
 
 namespace WindowsTesting
 {
     public partial class GraphForm : Form
     {
+        Hub hub;
+        List<EventInfo> lei;
         Queue<float> values = new Queue<float>();
         private Timer timer; 
 
         int max_value_num;
-        int event_id;
+        int EID, CID;
         int dot_size;
+        float maximum_value;
 
-        public GraphForm(int id)
+        public GraphForm(Hub h)
         {
             InitializeComponent();
-            event_id = id;
+            hub = h;
             max_value_num = 100;
             dot_size = 4;
+            lei = new List<EventInfo>();
+
+            foreach (int eid in hub.EventNums())
+            {
+                if (eid == 0)
+                    continue;
+
+                lei.Add(hub.GetEventInfo(eid));
+            }
+
+            foreach (EventInfo ei in lei)
+            {
+                comboBox1.Items.Add(new NumberedString(ei.name, ei.eid));
+            }
+            comboBox1.SelectedIndex = 0;
 
             this.GraphBox.Paint += new System.Windows.Forms.PaintEventHandler(this.GraphBox_Paint);
 
@@ -43,11 +62,14 @@ namespace WindowsTesting
             values.Enqueue(val);
             while (values.Count() > max_value_num)
                 values.Dequeue();
+            maximum_value = values.Max();
         }
 
         private void timer_Tick(object sender, EventArgs e)
         {
-            PushValue(50);
+            float val = (float)lei[EID].kursy[CID];
+
+            PushValue(val);
             this.GraphBox.Refresh();
         }
 
@@ -73,7 +95,7 @@ namespace WindowsTesting
 
             for (int i = 0; i < values.Count(); i++)
             {
-                val = values.ElementAt(i);
+                val = values.ElementAt(i) / maximum_value * ((float)height * 3 / 4);
                 x = 10 + width - i * (int)spread - dot_size;
                 y = 20 + height - (int)val - dot_size;
 
@@ -83,6 +105,26 @@ namespace WindowsTesting
             pen.Dispose();
             brush_black.Dispose();
             brush_green.Dispose();
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            comboBox2.Items.Clear();
+            foreach (string str in lei[comboBox1.SelectedIndex].wyns)
+            {
+                comboBox2.Items.Add(str);
+            }
+            comboBox2.SelectedIndex = 0;
+            EID = comboBox1.SelectedIndex;
+            CID = comboBox2.SelectedIndex;
+            values.Clear();
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            EID = comboBox1.SelectedIndex;
+            CID = comboBox2.SelectedIndex;
+            values.Clear();
         }
     }
 }
