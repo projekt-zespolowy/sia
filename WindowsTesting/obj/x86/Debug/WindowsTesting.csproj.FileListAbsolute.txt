@@ -21,3 +21,23 @@ C:\Users\Wojtek\Studia\Bazy Danych\SQL\Test01\WindowsTesting\obj\x86\Debug\Windo
 C:\Users\Wojtek\Studia\Bazy Danych\SQL\Test01\WindowsTesting\obj\x86\Debug\WindowsTesting.ChangeUserMoney.resources
 C:\Users\Wojtek\Studia\Bazy Danych\SQL\Test01\WindowsTesting\obj\x86\Debug\WindowsTesting.ModifyRisk.resources
 C:\Users\Wojtek\Studia\Bazy Danych\SQL\Test01\WindowsTesting\obj\x86\Debug\WindowsTesting.NewEventForm.resources
+C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\bin\Debug\WindowsTesting.exe.config
+C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\obj\x86\Debug\WindowsTesting.exe
+C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\obj\x86\Debug\WindowsTesting.pdb
+C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\bin\Debug\WindowsTesting.exe
+C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\bin\Debug\WindowsTesting.pdb
+C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\bin\Debug\Hub.dll
+C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\bin\Debug\SQLDatabaseGate.dll
+C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\bin\Debug\System.Data.SQLite.dll
+C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\bin\Debug\Hub.pdb
+C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\bin\Debug\SQLDatabaseGate.pdb
+C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\bin\Debug\System.Data.SQLite.xml
+C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\obj\x86\Debug\WindowsTesting.csprojResolveAssemblyReference.cache
+C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\obj\x86\Debug\WindowsTesting.ChangeUserMoney.resources
+C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\obj\x86\Debug\WindowsTesting.TradeForm.resources
+C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\obj\x86\Debug\WindowsTesting.ModifyRisk.resources
+C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\obj\x86\Debug\WindowsTesting.NewEventForm.resources
+C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\obj\x86\Debug\WindowsTesting.NewUserForm.resources
+C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\obj\x86\Debug\WindowsTesting.Properties.Resources.resources
+C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\obj\x86\Debug\WindowsTesting.SolveEventForm.resources
+C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\obj\x86\Debug\WindowsTesting.csproj.GenerateResource.Cache
