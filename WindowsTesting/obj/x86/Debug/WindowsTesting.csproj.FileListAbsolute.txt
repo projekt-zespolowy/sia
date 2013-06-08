@@ -31,7 +31,6 @@ C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\bin\Debug\SQLDatabaseGate.dll
 C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\bin\Debug\System.Data.SQLite.dll
 C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\bin\Debug\Hub.pdb
 C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\bin\Debug\SQLDatabaseGate.pdb
-C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\bin\Debug\System.Data.SQLite.xml
 C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\obj\x86\Debug\WindowsTesting.ChangeUserMoney.resources
 C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\obj\x86\Debug\WindowsTesting.TradeForm.resources
 C:\Users\Netsu\Documents\GitHub\sia\WindowsTesting\obj\x86\Debug\WindowsTesting.ModifyRisk.resources

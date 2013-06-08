@@ -9,7 +9,6 @@ C:\Users\Wojtek\Studia\Bazy Danych\SQL\Test01\SQLDatabaseGate\obj\Debug\SQLDatab
 C:\Users\Wojtek\Studia\Bazy Danych\SQL\Test01\SQLDatabaseGate\obj\Debug\SQLDatabaseGate.pdb
 C:\Users\Netsu\Documents\GitHub\sia\SQLDatabaseGate\bin\Debug\SQLDatabaseGate.dll
 C:\Users\Netsu\Documents\GitHub\sia\SQLDatabaseGate\bin\Debug\SQLDatabaseGate.pdb
-C:\Users\Netsu\Documents\GitHub\sia\SQLDatabaseGate\bin\Debug\System.Data.SQLite.xml
 C:\Users\Netsu\Documents\GitHub\sia\SQLDatabaseGate\obj\Debug\SQLDatabaseGate.csprojResolveAssemblyReference.cache
 C:\Users\Netsu\Documents\GitHub\sia\SQLDatabaseGate\obj\Debug\SQLDatabaseGate.dll
 C:\Users\Netsu\Documents\GitHub\sia\SQLDatabaseGate\obj\Debug\SQLDatabaseGate.pdb
